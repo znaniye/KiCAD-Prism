@@ -1,0 +1,194 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1abf2dea-33c2-4e4c-bd41-a5e930fa942d")
+	(paper "A5")
+	(lib_symbols
+		(symbol "Device:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 100.33 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f215097-acfb-40b3-882f-7385d3d1c7fd")
+		(property "Reference" "R1" (at 102.87 100.33 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Value" "10k" (at 102.87 102.87 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 100.33 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 100.33 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "" (at 100.33 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1" (uuid "c72790a5-26c6-4fe0-bbbe-d94a9e58fe41"))
+		(pin "2" (uuid "82d58203-aacc-4799-a710-c98aa923459d"))
+		(instances (project "stale-board-nets" (path "/1abf2dea-33c2-4e4c-bd41-a5e930fa942d" (reference "R1") (unit 1))))
+	)
+	(wire (pts (xy 100.33 96.52) (xy 100.33 88.9)) (stroke (width 0) (type default)) (uuid "3721c917-4cbf-4fd9-a5e7-1b369716b62e"))
+	(wire (pts (xy 100.33 88.9) (xy 107.95 88.9)) (stroke (width 0) (type default)) (uuid "32cb3346-b276-42c9-9489-5f705a924a00"))
+	(label "GND_A" (at 101.6 88.9 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b74edd32-310f-464a-840b-f38597a1bcd6"))
+	(wire (pts (xy 100.33 104.14) (xy 100.33 111.76)) (stroke (width 0) (type default)) (uuid "56f399f7-bf30-4505-a092-451f005ef61c"))
+	(symbol
+		(lib_id "Device:R")
+		(at 130.81 100.33 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a7a0039-62f0-4b19-9d28-0b7b59f63b69")
+		(property "Reference" "R2" (at 133.35 100.33 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Value" "10k" (at 133.35 102.87 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 130.81 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Datasheet" "~" (at 130.81 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "" (at 130.81 100.33 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(pin "1" (uuid "eaef682c-5fcd-4275-a6d5-88d39f7c9d47"))
+		(pin "2" (uuid "7baf780b-baad-4d34-b218-a765fdedca98"))
+		(instances (project "stale-board-nets" (path "/1abf2dea-33c2-4e4c-bd41-a5e930fa942d" (reference "R2") (unit 1))))
+	)
+	(wire (pts (xy 130.81 96.52) (xy 130.81 88.9)) (stroke (width 0) (type default)) (uuid "9fdeee37-1a57-4129-8686-831d38a58bf4"))
+	(wire (pts (xy 130.81 88.9) (xy 138.43 88.9)) (stroke (width 0) (type default)) (uuid "c6192dc9-f9be-4b57-a9e9-0d51bec2b45e"))
+	(label "GND_B" (at 132.08 88.9 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cee4a3c9-cf84-4b20-b3c5-bc45009038d7"))
+	(wire (pts (xy 130.81 104.14) (xy 130.81 111.76)) (stroke (width 0) (type default)) (uuid "5173d40f-17b3-4449-be5c-7e59e9d91e66"))
+	(wire (pts (xy 100.33 111.76) (xy 130.81 111.76)) (stroke (width 0) (type default)) (uuid "06cbf78f-9cfa-4dd1-b199-954abebd9b3a"))
+	(label "RET" (at 110.49 111.76 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4f49fb94-e0e8-4191-8a19-8041d65f1074"))
+	(sheet_instances (path "/" (page "1")))
+)
